@@ -5,14 +5,6 @@ def gen123():
 
 g=gen123()
 
-
-print(next(g))
-
-print(next(g))
-
-print(next(g))
-
-
 def gen246():
     print("About to yield 2")
     yield 2
@@ -24,6 +16,11 @@ def gen246():
 
 g = gen246()
 
-print(next(g))
 
-print(next(g))
+# any and all
+# if any True or is all true
+print(any([False, False, True]))
+
+print(all([False, False, True]))
+
+#any(is_prime(x) for x in range(1328, 1361))
